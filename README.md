@@ -8,16 +8,16 @@
 </p>
 
 <p dir="rtl">
-  این مخزن کد (repo) با هدف توسعه اسناد ری‌اکت به زبان فارسی، از{' '}
-  <a href="https://github.com/reactjs/reactjs.dev">reactjs/reactjs.dev</a>{' '}
+  این مخزن کد (repo) با هدف توسعه اسناد ری‌اکت به زبان فارسی، از
+  <a href="https://github.com/reactjs/reactjs.dev">reactjs/reactjs.dev</a>
   انشعاب (fork) گرفته‌است و پیوسته با نسخه اصلی همگام‌سازی می‌شود.
 </p>
 
 <p dir="rtl">
-  نسخه فارسی اسناد ری‌اکت را در{' '}
-  <a href="https://fa.reactjs.org/" target="_blank">
-    fa.reactjs.org
-  </a>{' '}
+  نسخه فارسی اسناد ری‌اکت را در
+  <a href="https://fa.reactjs.dev/" target="_blank">
+    fa.reactjs.dev
+  </a>
   ببینید.
 </p>
 
@@ -63,39 +63,56 @@
   </li>
 </ul>
 
-<h3 dir="rtl">نصب</h3>
+<h1 dir="rtl">نصب</h3>
 
-# ۱. ابتدا از پروژه یک فورک بگیرید
-
-در آدرس زیر بر روی دکمه `fork` کلیک کنید.
-سپس وارد این فورک در ری‌پوی خودتان شوید
+<h2 dir="rtl">ابتدا از پروژه یک فورک بگیرید</h2>
+در آدرس زیر بر روی دکمه `fork` کلیک کنید. سپس وارد این فورک در ری‌پوی خودتان شوید
 ‍‍‍‍‍
 
 ```bash
 https://github.com/reactjs/fa.react.dev
 ```
 
-# ۲. یک کپی از مخزن کد بگیرید
+<h2 dir="rtl">یک کپی از مخزن کد بگیرید</h2>
 
 ```bash
 git clone https://github.com/reactjs/fa.react.dev.git
 ```
 
-# ۳. به شاخه اصلی پروژه بروید
+<p dir="rtl">
+  در این قسمت چون شما پروژه را از فورکی که گرفته‌اید انتخاب می‌کنید. آدرس به شکل
+  زیر تغییر خواهد کرد. هر نام دلخواهی میتوانید قرار دهید.
+</p>
 
-```bash
-cd fa.reactjs.org
+```
+https://github.com/[YOUR_GITHUB_USERNAME]/[NAME_OF_REPO]
+
+Example: https://github.com/rezvani2647/Translate-React-Website.git
+
 ```
 
-# ۴. وابستگی‌های npm پروژه را نصب کنید
+<h2 dir="rtl">به شاخه اصلی پروژه بروید</h2>
+<p dir="rtl">
+  {' '}
+  هر نامی که انتخاب کنید پس از ساختین کپی (کلون) پروژه فولدری با آن نام ایجاد می‌شود.{' '}
+</p>
+<p dir="rtl"> در صورتی که نام پروژه را مطابق مثال بالا گذاشته باشید </p>
+
+```bash
+cd Translate-React-Website
+```
+
+<h2 dir="rtl">وابستگی‌های npm پروژه را نصب کنید</h2>
 
 ```bash
 yarn
 ```
 
-<h3 dir="rtl">اجرا</h3>
+<h1 dir="rtl">اجرا</h1>
 
-# سرور توسعه با قابلیت بارگذاری خودکار را اجرا کنید (قدرت گرفته از Gatsby)
+<h2 dir="rtl">
+  سرور توسعه با قابلیت بارگذاری خودکار را اجرا کنید (قدرت گرفته از Next)
+</h2>
 
 ```bash
 yarn dev
@@ -104,12 +121,6 @@ yarn dev
 <p dir="rtl">
   حالا آدرس <a href="http://localhost:3000">http://localhost:3000</a> را در
   مرورگر دلخواه خود باز کنید و تمام!
-</p>
-
-<p dir="rtl">
-  عزیزان بعد از ترجمه کار خود را کامیت و سپس پوش کنید. بعد از این کار یک PR در
-  فروفایل گیت شما مشخص می‌شود. و اینگونه ما PR شما رو بررسی و در صورت لازم به
-  پروژه اصلی اضافه می‌کنیم
 </p>
 
 <h3 dir="rtl">سوالی دارید؟</h3>
@@ -252,7 +263,7 @@ yarn dev
   </tr>
 </table>
 <p dir="rtl">
-  اسم شما فراموش شده‌است؟‌{' '}
+  اسم شما فراموش شده‌است؟‌
   <a href="https://github.com/reactjs/fa.reactjs.org/issues/new">
     به ما تذکر دهید!
   </a>
@@ -262,9 +273,9 @@ yarn dev
 
 <p dir="rtl">
   محتوایی که در <a href="https://reactjs.org/">reactjs.org</a> قرار می‌گیرد، تخت
-  مجوز CC-BY-4.0 منتشر می‌شود که جزئیات آن در{' '}
+  مجوز CC-BY-4.0 منتشر می‌شود که جزئیات آن در
   <a href="https://github.com/open-source-explorer/reactjs.org/blob/master/LICENSE-DOCS.md">
     LICENSE-DOCS.md
-  </a>{' '}
+  </a>
   آمده‌است.
 </p>
